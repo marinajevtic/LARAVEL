@@ -16,7 +16,7 @@ class destinacije extends Seeder
     {
         Destinacija::create([
             'destinacija' => 'Santorini',
-            'zemlja' => 'Grcka'
+            'zemlja' => 'Grčka'
         ]);
 
         Destinacija::create([
@@ -25,8 +25,8 @@ class destinacije extends Seeder
         ]);
 
         Destinacija::create([
-            'destinacija' => 'Palma de Maljorka',
-            'zemlja' => 'Spanija'
+            'destinacija' => 'Palma de Majorka',
+            'zemlja' => 'Španija'
         ]);
     }
 }
